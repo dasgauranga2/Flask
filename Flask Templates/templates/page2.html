@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <h1>Page 2</h1>
+
+        <!-- url_for is used to link to a routing function in the python file -->
+        <a href="{{ url_for('index') }}">Go to Page 1</a>
+        <!-- url_for is used to link to an image -->
+        <a href="{{ url_for('static',filename='train.jpeg') }}">Train Image</a>
+
+    </body>
+
+</html>

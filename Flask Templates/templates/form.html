@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+
+    <body>
+
+        <h2>Enter details</h2>
+
+        <!-- submit form to send data -->
+        <form action="{{ url_for('result_page') }}">
+
+            <label for="first">FIRST NAME :</label>
+            <input type="text" name="first">
+
+            <label for="last">LAST NAME :</label>
+            <input type="text" name="last">
+            
+            <!-- submit button -->
+            <input type="submit" value="SUBMIT">
+        </form>
+
+    </body>
+
+</html>
